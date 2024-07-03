@@ -35,7 +35,7 @@ app.use('/books', bookRoute);
 // );
 
 app.get('/', (req,res) =>{
-    console.log(req);
+    //console.log(req);
     return res.status(234).send("welcome to book store");
 });
 
